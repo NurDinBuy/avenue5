@@ -1,0 +1,31 @@
+.header {
+    height: 100px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.header_container {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.number {
+    text-align: center;
+}
+
+.number a {
+    color: #000000;
+    font-size: 22px;
+}
+
+.number p {
+    font-size: 12px;
+    cursor: default;
+}

@@ -1,0 +1,49 @@
+.benefits {
+    background: url("../../assets/svg/Benefits.svg") center no-repeat;
+    height: 850px;
+}
+
+.benefits h2 {
+    color: #2E363E;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.benefits_container {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits_item {
+    width: 400px;
+    text-align: center;
+}
+
+.benefits_item span {
+    color: #94A695;
+    font-weight: 700;
+    font-size: 222px;
+    /*position: absolute;*/
+}
+
+.benefits_text h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    /*position: absolute;*/
+}
+
+.benefits_text p {
+    color: #000000;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.benefits_text {
+    transform: translateY(-180px);
+}
